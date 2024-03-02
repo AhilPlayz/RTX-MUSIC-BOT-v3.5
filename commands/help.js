@@ -56,20 +56,20 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
+     .setImage('https://media.discordapp.net/attachments/1212077325282312242/1213141288569012264/standard.gif?ex=65f464de&is=65e1efde&hm=772f1162366e1d7a73f0e6d0a231b5bf5eee673f857534c13ed5f692256a515f&=')
       const button1 = new ButtonBuilder()
         .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+        .setURL('https://www.youtube.com/@Ahil_Playz')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
         .setLabel('Discord')
-        .setURL('https://discord.gg/FUEHs7RCqz')
+        .setURL('https://discord.gg/ZkpT4FS6W2')
         .setStyle(ButtonStyle.Link);
 
       const button3 = new ButtonBuilder()
-        .setLabel('Code')
-        .setURL('https://replit.com/@BEASTGAMERS1?tab=community')
+        .setLabel('Invite')
+        .setURL('https://discord.com/oauth2/authorize?client_id=1207012245482119270&permissions=8&scope=bot+applications.commands')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
